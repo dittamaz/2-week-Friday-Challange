@@ -1,0 +1,16 @@
+{
+  "name": "2-week-friday-challange",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "dead-server --host=localhost --port=4003",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Ditta",
+  "license": "MIT",
+  "description": "",
+  "devDependencies": {
+    "dead-server": "^1.0.9"
+  }
+}
