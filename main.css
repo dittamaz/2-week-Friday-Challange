@@ -9,17 +9,14 @@ body *{
 main {
     width: 900px;
     display: flex;
+    flex-direction: row;
     margin: 50px calc((100% - 900px) / 2);
-    gap: 50px;
+    gap: 30px;
     text-align: center;
 }
-
-column {
-    width: 200px;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    padding: 60px;
+main > div {
+    width: 300px;
+    padding: 10px;
 }
 
 img {
